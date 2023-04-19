@@ -12,6 +12,8 @@ const Pictures = () => {
       </div>
       <section className="picturesContainer">
         <Picture></Picture>
+        <Picture></Picture>
+        <Picture></Picture>
       </section>
     </main>
   );

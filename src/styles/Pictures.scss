@@ -1,14 +1,13 @@
 .mainContainer {
-  border: 1px solid orange;
   height: 100vh;
   display: flex;
   flex-direction: column;
   .search {
     width: 100vw;
     height: 200px;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
+    min-height: 200px;
     .input {
       width: 400px;
       height: 40px;
@@ -30,8 +29,10 @@
   }
 
   .picturesContainer {
-    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: auto;
     width: 100vw;
-    border: 1px solid blue;
   }
 }
